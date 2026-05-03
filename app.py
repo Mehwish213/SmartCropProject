@@ -1,7 +1,7 @@
 import os
 import gradio as gr
 from cnn_classifier import CropDiseaseClassifier
-from prolog_engine import CropDiseaseExpert
+from expert_engine import CropDiseaseExpert
 
 # Initialize our AI modules
 expert_loaded = False
