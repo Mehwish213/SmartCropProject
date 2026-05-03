@@ -1,11 +1,8 @@
-"""
-expert_engine.py — Pure Python expert system replacing Prolog
-"""
 
-class CropDiseaseExpert:
-    """
+"""
     Python-based knowledge base and rule engine for crop disease treatment reasoning.
     """
+class CropDiseaseExpert:
 
     def __init__(self):
         # Disease Information: (CropType, Description, SpreadRate)
